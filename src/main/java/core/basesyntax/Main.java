@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Main {
 
-    static void main() {
+    public static void main(String[] args) {
         final int randomMaxNumber = 101;
 
         FigureSupplier figureSupplier = new FigureSupplier();
