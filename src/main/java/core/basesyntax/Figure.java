@@ -5,6 +5,7 @@ import java.util.InputMismatchException;
 import java.util.List;
 
 abstract class Figure implements Drawable {
+
     private String color;
     private double area;
 
