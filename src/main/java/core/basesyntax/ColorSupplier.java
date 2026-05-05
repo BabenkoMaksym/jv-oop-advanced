@@ -2,9 +2,9 @@ package core.basesyntax;
 
 public class ColorSupplier {
 
-    public String getRandomColor() {
+    public Color getRandomColor() {
         Color[] colors = Color.values();
-        return colors[RandomUtils.getRandomInt(colors.length)].name();
+        return colors[RandomUtils.getRandomInt(colors.length)];
     }
 
 }

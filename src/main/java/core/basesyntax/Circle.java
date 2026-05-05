@@ -4,7 +4,7 @@ public class Circle extends Figure {
 
     private final int radius;
 
-    public Circle(String color, int radius) {
+    public Circle(Color color, int radius) {
         super(color);
         this.radius = radius;
         super.setArea(Math.PI * radius * radius);
